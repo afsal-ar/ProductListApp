@@ -65,7 +65,7 @@ struct ProductDetailsView: View {
                 
                 VStack(alignment: .leading, spacing: 0) {
                     HStack {
-                        Text("Mens Clothing")
+                        Text(productModel.category ?? "")
                             .foregroundColor(Color.gray)
                         
                             .multilineTextAlignment(.leading)
